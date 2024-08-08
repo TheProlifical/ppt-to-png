@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNG to PPT Converter</title>
+    <link rel="stylesheet" href="/static/upload.css">
+    <link rel="stylesheet" href="/static/output.css">
+
+</head>
+
+<body class="text-white bg-[#11151d] flex items-center justify-center min-h-screen relative">
+
+    <!-- Background Grid -->
+    <div class="grid-background"></div>
+
+    <!-- Main Container -->
+    <div class="w-full max-w-md mx-auto p-6 space-y-8">
+
+        <!-- Title -->
+        <div class="text-center">
+            <h1 class="text-5xl font-extrabold tracking-tight mb-3 text-white ">
+                PNG to PPT Converter
+            </h1>
+            <p class="mt-2 text-lg text-gray-400">
+                Convert your PNG files into PowerPoint presentations
+            </p>
+        </div>
+
+        <!-- Form Container -->
+        <form action="/upload" method="post" onsubmit="handleFormSubmit(event)" enctype="multipart/form-data" class="bg-gray-800 p-8 rounded-lg shadow-lg ">
+            <h2 class="text-2xl font-semibold mb-6 text-center">Upload PNG Files</h2>
+
+            <div class="mb-6">
+                <input id="file-input" type="file" name="upload" multiple class="block w-full text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700 transition-colors cursor-pointer">
+                <ul id="file-list" class="mt-4 text-sm text-gray-400 space-y-1"></ul>
+            </div>
+
+            <div class="progress-container mt-4 mb-4 hidden">
+                <progress id="upload-progress" value="0" max="100" class="w-full">
+                </progress>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" value="Upload" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg w-full cursor-pointer transition-colors">
+            </div>
+        </form>
+
+        <!-- Creator Info -->
+        <div class="text-center text-sm text-gray-500">
+            Made by <a href="https://theprolifical.github.io/" class="text-blue-600 underline">Ahson</a>
+        </div>
+
+    </div>
+
+    <script src="/static/two.js"></script>
+
+
+</body>
+
+</html>
