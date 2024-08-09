@@ -52,5 +52,3 @@ The security policy and our approach to security are subject to change as the pr
 For any questions or concerns, feel free to reach out to the maintainers at [itsahson1978@gmail.com].
 
 ---
-
-This `SECURITY.md` file outlines how users can report security issues, what versions are supported, and some best practices for maintaining security in the project. You can customize the contact details and any specific procedures you’d like to follow.
