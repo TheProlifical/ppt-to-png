@@ -1,5 +1,4 @@
 ---
-
 # 🖼️ PNG to PPT Converter
 Easily convert PNG images to PowerPoint (PPT) presentations with our simple tool! This project offers two methods: a web interface and a standalone script. 🎨
 ## ✨ Features
