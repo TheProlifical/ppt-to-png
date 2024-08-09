@@ -1,5 +1,3 @@
-Here’s a sample `SECURITY.md` file for your project:
-
 ---
 
 # 🔐 Security Policy
